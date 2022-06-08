@@ -1,0 +1,89 @@
+@media screen and (max-width: 992px) {
+	h2 {
+		margin: 0 10px;
+		font-size: larger;
+	}
+	.body-container {
+		padding: 0;
+	}
+
+	.search__filters {
+		flex-wrap: wrap;
+	}
+
+	#search {
+		display: flex;
+		justify-content: left;
+		padding: 0 20px;
+	}
+	#search > span {
+		font-size: 12px;
+	}
+	.search__filters {
+		justify-content: left;
+	}
+	.info-circle {
+		font-size: 10px;
+	}
+	#search > h2 {
+		margin: 0;
+	}
+
+	#hostings {
+		flex-direction: column;
+		align-items: center;
+	}
+	.hostings__city {
+		padding: 30px 15px;
+		max-width: 100%;
+	}
+	.city__list {
+		justify-content: space-around;
+		gap: 3%;
+	}
+
+	.hostings__popular {
+		max-width: 100%;
+		width: 100%;
+	}
+	.hostings__popular > ul {
+		justify-content: space-evenly;
+	}
+
+	.activcard1,
+  .activcard2,
+  .activcard3,
+  .activcard4,
+  .activcard5,
+  .activcard6 {
+    box-shadow: 0 0 16px #0000002e;
+    border-radius: 1rem;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    max-height: 10rem;
+    min-width: 14rem;
+    width: inherit;
+    max-width: inherit;
+    
+  }
+  .activcardimg1 img,
+  .activcardimg2 img,
+  .activcardimg3 img,
+  .activcardimg4 img,
+  .activcardimg5 img,
+  .activcardimg6 img {
+    border-radius: 1rem 1rem 0 0;
+    height: 7.5rem;
+    object-fit: cover;
+    width: 100%;
+  }
+  .activarea {
+    display: flex;
+    flex-direction: column;
+  }
+  .footerarea {
+    display: flex;
+    flex-direction: column;
+  }
+}
